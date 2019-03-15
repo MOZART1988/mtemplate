@@ -19,7 +19,6 @@ $result = [
             ],
             'urlManager' => [
                 'class' => \mtemplate\mclasses\MBTUrlManager::class,
-                //'class' => '\rocketfirm\engine\rocket\RFUrlManager',
                 'enablePrettyUrl' => true,
                 'showScriptName' => false,
                 'suffix' => '/',

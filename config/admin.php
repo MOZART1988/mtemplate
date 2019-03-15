@@ -2,7 +2,7 @@
 $result = [
     'web' => array(
         'basePath' => dirname(__DIR__),
-        'name' => 'BAKAPP',
+        'name' => 'MTEMPLATE',
         'language' => 'ru',
         'defaultRoute' => 'basepage/default/index',
         'components' => [
