@@ -16,7 +16,7 @@ class m170919_163458_add_translation_table extends Migration
         ], $tableOptions);
 
         $this->createTable('message', [
-            'id' => $this->primaryKey(),
+            'id' => $this->integer()->notNull(),
             'language' => $this->string()->notNull(),
             'translation' => $this->string()
         ], $tableOptions);

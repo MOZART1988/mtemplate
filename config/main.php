@@ -24,8 +24,8 @@ $result = [
     ],
     'web' => [
         'basePath' => dirname(__DIR__),
-        'name' => 'Mozart Base Template',
-        'id' => 'Bakapp',
+        'name' => 'MTEMPLATE',
+        'id' => 'MTEMPLATE',
         'language' => 'ru',
         'sourceLanguage' => 'ru',
         'bootstrap' => ['log'],

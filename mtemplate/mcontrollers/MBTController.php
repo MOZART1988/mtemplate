@@ -54,7 +54,7 @@ class MBTController extends Controller
             return;
         }
 
-        $this->getView()->title = $title . ' - ' . 'Кунбала';
+        $this->getView()->title = $title . ' - ' . 'MTEMPLATE';
 
         if ($image && mb_strpos($image, '//') === false) {
             $image = $_SERVER['HTTP_HOST'] . $url;
